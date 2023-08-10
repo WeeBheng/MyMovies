@@ -69,10 +69,10 @@ public class ModifyActivity extends AppCompatActivity {
             }
         });
 
-        btnDelete.setOnClickListener(new View.OnClickListener(){
+        btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder myBuilder = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder myBuilder = new AlertDialog.Builder(ModifyActivity.this);
 
                 myBuilder.setTitle("Danger");
                 myBuilder.setMessage("Are you sure you want to delete the movie " + movie.getMovieTitle() + "?");
